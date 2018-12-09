@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuListProgram"
+        android:title="List Program"/>
+    <item android:id="@+id/menuListUser"
+        android:title="List User"/>
+    <item android:id="@+id/menuListPendaftaran"
+        android:title="List Pendaftaran"/>
+</menu>
