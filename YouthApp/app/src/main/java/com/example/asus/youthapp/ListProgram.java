@@ -68,7 +68,7 @@ public class ListProgram extends AppCompatActivity {
         btAddData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), InsertProgram.class);
+                Intent i = new Intent(getApplicationContext(), insert_program2.class);
                 startActivity(i);
             }
         });

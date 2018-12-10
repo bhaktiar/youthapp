@@ -55,6 +55,7 @@ public interface ApiInterface {
     @Multipart
     @POST("user/all")
     Call<GetUser> postUser(
+            @Part MultipartBody.Part file,
             @Part("nama") RequestBody nama,
             @Part("institusi") RequestBody institusi,
             @Part("telp") RequestBody telp,

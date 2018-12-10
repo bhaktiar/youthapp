@@ -71,7 +71,7 @@ public class ListUser extends AppCompatActivity {
         btAddData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(mContext, InsertProgram.class);
+                Intent intent = new Intent(mContext, insert_user.class);
                 startActivity(intent);
             }
         });

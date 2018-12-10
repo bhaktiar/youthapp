@@ -3,8 +3,8 @@
     package="com.example.asus.youthapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -20,8 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListProgram"></activity>
-        <activity android:name=".ListUser"></activity>
+        <activity android:name=".ListProgram" />
+        <activity android:name=".ListUser" />
+        <activity android:name=".insert_program2" />
+        <activity android:name=".insert_user"></activity>
     </application>
 
 </manifest>
